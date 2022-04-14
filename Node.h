@@ -11,14 +11,14 @@ class Node
 		virtual ~Node(void) = 0;
 
 		/*
-		* Accept a node visitor.
-		* @param[in]		visitor		The Node Visitor that has a certain algo attached to it.
+		* Accept a node visitor
+		* @param[in]		visitor		The Node Visitor that has a certain algo attached to it
 		*/
 		virtual void accept(Node_Visitor & visitor) = 0;
 
 		/*
-		* Determines if the node is a leaf.
-		* @returns	boolean		If the node is a leaf.
+		* Determines if the node is a leaf
+		* @returns	boolean		If the node is a leaf
 		*/
 		virtual bool is_leaf() = 0;
 };

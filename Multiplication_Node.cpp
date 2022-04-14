@@ -1,4 +1,5 @@
 #include "Multiplication_Node.h"
+#include "Node_Visitor.h"
 
 Multiplication_Node::Multiplication_Node()
 	:Binary_Node(2)

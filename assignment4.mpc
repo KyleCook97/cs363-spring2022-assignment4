@@ -16,7 +16,9 @@ project (assignment4) {
 	Node.cpp
 	Node_Visitor.cpp
 	Post_Node_Visitor.cpp
+	Tree.cpp
 	Binary_Node.cpp
+	Builder.cpp
 	Math_Expression.cpp	
   }
 

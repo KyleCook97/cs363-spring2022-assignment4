@@ -46,3 +46,34 @@ void Post_Node_Visitor::visit_division_node(Division_Node& node)
 {
 	eval_children(node);
 }
+
+void Post_Node_Visitor::visit_modulus_node(Modulus_Node& node)
+{
+	eval_children(node);
+	stack_->push(num1_ % num2_);
+}
+
+void Post_Node_Visitor::visit_number_node(Number_Node& node)
+{
+	stack_->push(node.get_value());
+}
+
+int Post_Node_Visitor::get_result(void)
+{
+	if (!stack_->is_empty()) {
+		this->result_ = stack_->top();
+	}
+
+	return this->result_;
+}
+
+void Post_Node_Visitor::eval_children(Binary_Node& bin_node)
+{
+	bin_node.get_left_node()->accept(*this);
+	bin_node.get_right_node()->accept(*this);
+
+	this->num2_ = stack_->top();
+	stack_->pop();
+	num1_ = stack_->top();
+	stack_->pop();
+}
