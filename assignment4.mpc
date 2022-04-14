@@ -15,6 +15,7 @@ project (assignment4) {
 	Number_Node.cpp
 	Node.cpp
 	Node_Visitor.cpp
+	Post_Node_Visitor.cpp
 	Binary_Node.cpp
 	Math_Expression.cpp	
   }
