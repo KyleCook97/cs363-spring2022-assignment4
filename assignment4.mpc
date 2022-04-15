@@ -7,6 +7,8 @@ project (assignment4) {
   }
 
   Source_Files {
+	main.cpp
+	Calculator.cpp
 	Addition_Node.cpp
 	Subtraction_Node.cpp
 	Multiplication_Node.cpp
@@ -17,6 +19,7 @@ project (assignment4) {
 	Node_Visitor.cpp
 	Post_Node_Visitor.cpp
 	Tree.cpp
+	Tree_Builder.cpp
 	Binary_Node.cpp
 	Builder.cpp
 	Math_Expression.cpp	
