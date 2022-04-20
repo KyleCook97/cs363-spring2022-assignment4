@@ -80,6 +80,7 @@ int Calculator::get_result()
     {
 		throw std::runtime_error("No Builder found. No result can be given.");
 	}
+    
 	return this->builder_->get_expression().eval();
 }
 

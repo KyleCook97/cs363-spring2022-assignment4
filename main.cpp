@@ -3,6 +3,9 @@
 #include "Tree_Builder.h"
 #include "Builder.h"
 
+// COMMENT Correct use of the patterns. Clean up your code.
+
+
 int main(int argc, char* argv[])
 {
 	Builder* builder = new Tree_Builder();
