@@ -5,10 +5,7 @@
 
 // COMMENT Correct use of the patterns. Clean up your code.
 
-<<<<<<< HEAD
-=======
 // RESPONSE Cleaned up code.
->>>>>>> Fixed division operation and cleaned up code
 
 int main(int argc, char* argv[])
 {
