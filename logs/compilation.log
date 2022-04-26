@@ -1,0 +1,25 @@
+Generating 'make' output using default input
+Generation Time: 0s
+make[1]: Entering directory `/home/hilljh/cs363-sandbox/assignment4/kwcook/cs363-spring2022-assignment4'
+rm -rf main.o Calculator.o Addition_Node.o Subtraction_Node.o Multiplication_Node.o Division_Node.o Modulus_Node.o Number_Node.o Node.o Node_Visitor.o Post_Node_Visitor.o Tree.o Tree_Builder.o Binary_Node.o Builder.o Math_Expression.o
+rm -rf ./assignment4
+make[1]: Leaving directory `/home/hilljh/cs363-sandbox/assignment4/kwcook/cs363-spring2022-assignment4'
+make[1]: Entering directory `/home/hilljh/cs363-sandbox/assignment4/kwcook/cs363-spring2022-assignment4'
+g++  -fPIC -O -std=c++11 -D_REENTRANT -c  -o "main.o" main.cpp
+g++  -fPIC -O -std=c++11 -D_REENTRANT -c  -o "Calculator.o" Calculator.cpp
+g++  -fPIC -O -std=c++11 -D_REENTRANT -c  -o "Addition_Node.o" Addition_Node.cpp
+g++  -fPIC -O -std=c++11 -D_REENTRANT -c  -o "Subtraction_Node.o" Subtraction_Node.cpp
+g++  -fPIC -O -std=c++11 -D_REENTRANT -c  -o "Multiplication_Node.o" Multiplication_Node.cpp
+g++  -fPIC -O -std=c++11 -D_REENTRANT -c  -o "Division_Node.o" Division_Node.cpp
+g++  -fPIC -O -std=c++11 -D_REENTRANT -c  -o "Modulus_Node.o" Modulus_Node.cpp
+g++  -fPIC -O -std=c++11 -D_REENTRANT -c  -o "Number_Node.o" Number_Node.cpp
+g++  -fPIC -O -std=c++11 -D_REENTRANT -c  -o "Node.o" Node.cpp
+g++  -fPIC -O -std=c++11 -D_REENTRANT -c  -o "Node_Visitor.o" Node_Visitor.cpp
+g++  -fPIC -O -std=c++11 -D_REENTRANT -c  -o "Post_Node_Visitor.o" Post_Node_Visitor.cpp
+g++  -fPIC -O -std=c++11 -D_REENTRANT -c  -o "Tree.o" Tree.cpp
+g++  -fPIC -O -std=c++11 -D_REENTRANT -c  -o "Tree_Builder.o" Tree_Builder.cpp
+g++  -fPIC -O -std=c++11 -D_REENTRANT -c  -o "Binary_Node.o" Binary_Node.cpp
+g++  -fPIC -O -std=c++11 -D_REENTRANT -c  -o "Builder.o" Builder.cpp
+g++  -fPIC -O -std=c++11 -D_REENTRANT -c  -o "Math_Expression.o" Math_Expression.cpp
+g++  -fPIC -O -std=c++11 -D_REENTRANT -L"." main.o Calculator.o Addition_Node.o Subtraction_Node.o Multiplication_Node.o Division_Node.o Modulus_Node.o Number_Node.o Node.o Node_Visitor.o Post_Node_Visitor.o Tree.o Tree_Builder.o Binary_Node.o Builder.o Math_Expression.o -ldl -lrt -lpthread -o "assignment4"
+make[1]: Leaving directory `/home/hilljh/cs363-sandbox/assignment4/kwcook/cs363-spring2022-assignment4'
