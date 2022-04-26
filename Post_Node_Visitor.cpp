@@ -45,6 +45,7 @@ void Post_Node_Visitor::visit_multiplication_node(Multiplication_Node& node)
 void Post_Node_Visitor::visit_division_node(Division_Node& node)
 {
 	eval_children(node);
+	stack_->push(num1_ / num2_);
 }
 
 void Post_Node_Visitor::visit_modulus_node(Modulus_Node& node)
